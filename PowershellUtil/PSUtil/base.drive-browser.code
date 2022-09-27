@@ -1,0 +1,9 @@
+﻿	$a()
+    $item = [PSCustomObject] @{
+	    Type = $_.Mode
+		Modified = $_.LastWriteTime
+		Size = $_.Length
+		Name = \"<a href=`\"#`\" target=`\"popup`\" onclick=`\"window.open('RetrieveContent.aspx?provider=DRIVE&path=$_.FullName`$','popup','width=600,height=600'); return false;`\">$_.Name</a>\"
+    }
+
+    $a += $item

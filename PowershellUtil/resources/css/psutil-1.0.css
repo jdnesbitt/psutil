@@ -1,0 +1,17 @@
+﻿body {
+    font-family: Roboto;
+    color: black;
+    font-size: small;
+}
+
+h1 {
+    font-family: Roboto;
+    color: darkblue;
+    font-size: xx-large;
+}
+
+button{
+    font-family: Roboto;
+    font-size: small;
+}
+
